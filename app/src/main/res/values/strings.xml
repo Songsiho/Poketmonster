@@ -1,0 +1,9 @@
+<resources>
+    <string name="app_name">Poketmonster</string>
+    <string name="isang">no.1\nName : Bulbasaur\nHeight : 0.7m\nWeight : 6.9kg</string>
+    <string name="pika">no.25\nName : Bulbasaur\nHeight : 0.4m\nWeight : 6.0kg</string>
+    <string name="pairi">no.4\nName : Charmander\nHeight : 0.6m\nWeight : 8.5kg</string>
+    <string name="kko">no.7\nName : Squirtle\nHeight : 0.5m\nWeight : 9.0kg</string>
+    <string name="eve">no.133\nName : Eevee\nHeight : 0.3m\nWeight : 6.5kg</string>
+    <string name="butter">no.12\nName : Butterfree\nHeight : 1.1m\nWeight : 32kg</string>
+</resources>

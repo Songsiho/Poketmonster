@@ -1,0 +1,78 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+    <LinearLayout
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:gravity="center_horizontal"
+    tools:context="com.example.android.poketmonster.MainActivity"
+    android:background="@android:color/white">
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="PoketMon Guide   "
+            android:textSize="36sp"
+            android:layout_gravity="center"
+            />
+
+        <ImageButton
+            android:id="@+id/pika"
+            android:layout_width="300dp"
+            android:layout_height="300dp"
+            android:scaleType="centerCrop"
+            android:src="@drawable/pika"
+            android:padding="16dp"
+            android:background="@android:color/white"
+            android:onClick="pika"
+            />
+        <ImageButton
+            android:id="@+id/eve"
+            android:layout_width="300dp"
+            android:layout_height="300dp"
+            android:scaleType="centerCrop"
+            android:src="@drawable/eve"
+            android:padding="16dp"
+            android:background="@android:color/white"/>
+
+        <ImageButton
+            android:id="@+id/isang"
+            android:layout_width="300dp"
+            android:layout_height="300dp"
+            android:scaleType="centerCrop"
+            android:src="@drawable/isang"
+            android:padding="16dp"
+            android:background="@android:color/white"
+            />
+        <ImageButton
+            android:id="@+id/kko"
+            android:layout_width="300dp"
+            android:layout_height="300dp"
+            android:scaleType="centerCrop"
+            android:src="@drawable/kko"
+            android:padding="16dp"
+            android:background="@android:color/white"/>
+
+
+        <ImageButton
+            android:id="@+id/butter"
+            android:layout_width="300dp"
+            android:layout_height="300dp"
+            android:scaleType="centerCrop"
+            android:src="@drawable/butter"
+            android:padding="16dp"
+            android:background="@android:color/white"/>
+        <ImageButton
+            android:id="@+id/pairi"
+            android:layout_width="300dp"
+            android:layout_height="300dp"
+            android:scaleType="centerCrop"
+            android:src="@drawable/pairi"
+            android:padding="16dp"
+            android:background="@android:color/white"/>
+    </LinearLayout>
+</ScrollView>
